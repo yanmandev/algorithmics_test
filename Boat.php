@@ -7,7 +7,7 @@ use app\actions\SwimmingAction;
 use app\interfaces\ShootingInterface;
 use app\interfaces\SwimmingInterface;
 
-class Boat extends Transport implements SwimmingInterface, ShootingInterface
+final class Boat extends Transport implements SwimmingInterface, ShootingInterface
 {
     private SwimmingAction $swimming;
     private ShootingAction $shooting;

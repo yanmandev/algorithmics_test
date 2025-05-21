@@ -7,7 +7,7 @@ use app\actions\SwimmingAction;
 use app\interfaces\DrivingInterface;
 use app\interfaces\SwimmingInterface;
 
-class Amphibian extends Transport implements DrivingInterface, SwimmingInterface
+final class Amphibian extends Transport implements DrivingInterface, SwimmingInterface
 {
     private DrivingAction $driving;
     private SwimmingAction $swimming;

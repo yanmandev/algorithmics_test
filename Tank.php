@@ -7,7 +7,7 @@ use app\actions\ShootingAction;
 use app\interfaces\DrivingInterface;
 use app\interfaces\ShootingInterface;
 
-class Tank extends Transport implements DrivingInterface, ShootingInterface
+final class Tank extends Transport implements DrivingInterface, ShootingInterface
 {
     private DrivingAction $driving;
     private ShootingAction $shooting;
